@@ -1,0 +1,91 @@
+body {
+  background-color: #fefefe;
+  font-family: "Hiragino Kaku Gothic ProN", "Yu Gothic", "Helvetica Neue", sans-serif;
+  line-height: 1.7;
+  color: #333;
+}
+
+
+/* グリッドレイアウト */
+.post-list {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* 基本は4列 */
+  gap: 1.5rem;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 2rem 0;
+  list-style: none;
+  padding-left: 0;
+}
+
+/* 画面が1000px以下なら3列 */
+@media (max-width: 1000px) {
+  .post-list {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+/* 画面が750px以下なら2列 */
+@media (max-width: 750px) {
+  .post-list {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+/* 画面が500px以下なら1列 */
+@media (max-width: 500px) {
+  .post-list {
+    grid-template-columns: 1fr;
+  }
+}
+
+/* カード調デザイン */
+.post-list li {
+  background: white;
+  padding: 1rem;
+  border-left: 4px solid #aaa;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1), 0 2px 4px rgba(0, 0, 0, 0.15); /* 影を強くする */
+  border-radius: 6px;
+  transition: transform 0.2s ease;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 190px; /* 高さを固定 */
+}
+
+.post-list li:hover {
+  transform: translateY(-4px);
+}
+
+/* タイトル */
+.post-list h3 {
+  /*margin-top: 0.5rem;*/
+  font-size: 1.2rem;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2; /* 2行まで表示 */
+  line-clamp: 2; /* 標準プロパティを追加 */
+  overflow: hidden;
+  text-overflow: ellipsis; /* 長すぎるテキストを省略表示 */
+}
+
+/* 投稿日付 */
+.post-meta {
+  font-size: 0.85rem;
+  color: #888;
+  margin-bottom: 0.5rem;
+}
+
+.post-image {
+  width: 100%;
+  height: 100px;
+  object-fit: cover;
+  border-radius: 4px;
+  margin-bottom: 0.5rem;
+  background-color: #eee;
+}
+
+.site-title {
+  font-family: 'M PLUS Rounded 1c', sans-serif;
+  font-size: 2rem;
+}

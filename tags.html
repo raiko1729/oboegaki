@@ -1,0 +1,47 @@
+---
+layout: page
+title: タグ一覧
+permalink: /tags/
+---
+
+
+<ul class="tag-list">
+  {%- assign tags_sorted = site.tags | sort %}
+  {%- for tag in tags_sorted %}
+    <li>
+      <a href="{{ '/tags/' | append: tag[0] | append: '/' | relative_url }}">
+        {{ tag[0] }} ({{ tag[1].size }})
+      </a>
+    </li>
+  {%- endfor %}
+</ul>
+
+
+
+
+
+<style>
+  .tag-list {
+    list-style: none;
+    padding: 0;
+  }
+
+  .tag-list li {
+    display: inline-block;
+    margin: 0.5em;
+  }
+
+  .tag-list a {
+    background-color: #f0f0f0;
+    padding: 0.4em 0.8em;
+    border-radius: 0.6em;
+    text-decoration: none;
+    color: #333;
+    font-weight: 500;
+    transition: background-color 0.3s ease;
+  }
+
+  .tag-list a:hover {
+    background-color: #d0d0d0;
+  }
+</style>

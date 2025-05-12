@@ -1,0 +1,31 @@
+---
+layout: default
+tag: 物理
+title: "タグ一覧"
+permalink: /tags/物理/
+---
+
+<h1>タグ: {{ page.tag }}</h1>
+
+<ul class="post-list">
+  {% for post in site.posts %}
+    {% if post.tags contains page.tag %}
+      <li>
+        <a href="{{ post.url }}">
+          <div class="post-meta">
+            <span>{{ post.date | date: "%Y-%m-%d" }}</span>
+          </div>            
+          <div class="post-image">
+            {%- if post.image -%}
+            <img src="{{ post.image | relative_url }}" alt="{{ post.title }}" class="post-image">
+            {%- else -%}
+            <img src="{{ "/assets/images/test-myface.png" | relative_url }}" alt="default image" class="post-image">
+            {%- endif -%}
+          </div>
+          <h3>{{ post.title }}</h3>
+        </a>
+
+      </li>
+    {% endif %}
+  {% endfor %}
+</ul>
