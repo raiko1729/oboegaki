@@ -5,7 +5,7 @@ description: >-
   勉強したことをサイトの作成者である来光が載せていきます
 baseurl: "/oboegaki"  # サイトが https://raiko1729.github.io/oboegaki/ に配置される場合
 url: "https://raiko1729.github.io"  # サイトのベースURL
-twitter_username: jekyllrb
+# twitter_username: jekyllrb
 github_username: raiko1729
 
 # Build settings
