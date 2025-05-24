@@ -1,0 +1,72 @@
+{
+  "nodes": [
+    {
+      "id": "Jekyll",
+      "label": "Jekyll"
+    },
+    {
+      "id": "LaTeX",
+      "label": "LaTeX"
+    },
+    {
+      "id": "キーボード",
+      "label": "キーボード"
+    },
+    {
+      "id": "プログラミング",
+      "label": "プログラミング"
+    },
+    {
+      "id": "数学",
+      "label": "数学"
+    },
+    {
+      "id": "材料力学",
+      "label": "材料力学"
+    },
+    {
+      "id": "物理",
+      "label": "物理"
+    },
+    {
+      "id": "解析力学",
+      "label": "解析力学"
+    },
+    {
+      "id": "買うべきもの",
+      "label": "買うべきもの"
+    }
+  ],
+  "links": [
+    {
+      "source": "物理",
+      "target": "解析力学",
+      "value": 2
+    },
+    {
+      "source": "数学",
+      "target": "解析力学",
+      "value": 1
+    },
+    {
+      "source": "材料力学",
+      "target": "物理",
+      "value": 1
+    },
+    {
+      "source": "数学",
+      "target": "物理",
+      "value": 1
+    },
+    {
+      "source": "キーボード",
+      "target": "プログラミング",
+      "value": 1
+    },
+    {
+      "source": "LaTeX",
+      "target": "プログラミング",
+      "value": 1
+    }
+  ]
+}

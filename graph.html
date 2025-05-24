@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8" />
+  <title>力学的グラフ描画</title>
+  <style>
+    /* もしstyle.css使わないならここに書いてもOK */
+    body {
+      margin: 0;
+      overflow: hidden;
+    }
+    canvas {
+      display: block;
+      background-color: #f9f9f9;
+      width: 100vw;
+      height: 100vh;
+    }
+  </style>
+</head>
+<body>
+  <canvas id="maincanvas"></canvas>
+
+  <script src="/oboegaki/assets/js/graph.js"></script>
+  <script>
+    const canvas = new Canvas();
+    canvas.resize();
+    canvas.changeGraph("star");  // 例: completeグラフを表示
+    setInterval(() => canvas.draw(), 20);
+
+    window.addEventListener("resize", () => {
+      canvas.resize();
+    });
+
+    const maincanvas = document.getElementById("maincanvas");
+    maincanvas.addEventListener("mousedown", (e) => canvas.onCanvasMousedown(e));
+    maincanvas.addEventListener("mousemove", (e) => canvas.onCanvasMousemove(e));
+    maincanvas.addEventListener("mouseup", (e) => canvas.onCanvasMouseup(e));
+  </script>
+</body>
+</html>
