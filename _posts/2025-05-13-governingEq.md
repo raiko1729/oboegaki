@@ -10,6 +10,7 @@ tags: ["材料力学", "物理"]
 
 ## 一般化されたフックの法則
 
+<div style="overflow-x: auto">
 $$
 \begin{equation}
     \begin{cases}
@@ -23,9 +24,11 @@ $$
 \end{equation}
 \label{a}\tag{1}
 $$
+</div>
 
 今回は，平面応力状態を考えているので式(\ref{a})に$$\sigma_z=0, \sigma_{zx}=0, \sigma_{zy}=0$$を代入する
 
+<div style="overflow-x: auto">
 $$
 \begin{equation}
     \begin{cases}
@@ -35,15 +38,18 @@ $$
 \end{equation}
 \label{b}\tag{2}
 $$
+</div>
 
 横弾性定数$$G=\frac{E}{2(1+\nu)}$$を代入して
 
+<div style="overflow-x: auto">
 $$
 \begin{equation}
     \gamma_{xy} = \frac{2(1+\nu)}{E}\sigma_{xy}
 \end{equation}
 \label{c}\tag{3}
 $$
+</div>
 
 となる．ここで，演習問題[3.3]で得られたひずみの適合条件式に式(\ref{b}), 式(\ref{c})を代入する．
 
@@ -59,6 +65,7 @@ $$
 
 ここで平衡方程式
 
+<div style="overflow-x: auto">
 $$
 \begin{equation}
     \begin{cases}
@@ -68,11 +75,13 @@ $$
 \end{equation}
 \label{e}\tag{5}
 $$
+</div>
 
 を用いて式(\ref{d})を変形していく．
 
 式(\ref{e})の第一式を$$x$$で偏微分，第二式を$$y$$で偏微分して
 
+<div style="overflow-x: auto">
 $$
 \begin{equation}
     \begin{cases}
@@ -82,6 +91,7 @@ $$
 \end{equation}
 \label{f}\tag{6}
 $$
+<div>
 
 式(\ref{f})の辺々を足し合わせて，
 
