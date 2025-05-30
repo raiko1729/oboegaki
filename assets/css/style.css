@@ -101,21 +101,9 @@ h1 {
 }
 
 
-mjx-container[jax="CHTML"][display="true"] {
-  display: block;
-  overflow-x: auto;
-  overflow-y: hidden;
-  padding: 0.5rem 0;
-  margin-left: auto;
-  margin-right: auto;
-  text-align: center;
-  max-width: 100%;
-  box-sizing: border-box;
-  width: 100%;
-}
-
-mjx-container[jax="CHTML"][display="true"] > mjx-math {
-  display: inline-block; /* ← inline-tableだと問題が出ることも */
-  min-width: 100%;        /* ← これが重要 */
-  text-align: center;
+mjx-container {
+	overflow-x: auto;
+	overflow-y: hidden;
+	max-width: 100%;
+	padding:0.1rem 0.2rem;
 }

@@ -47,12 +47,15 @@ $$
 
 となる．ここで，演習問題[3.3]で得られたひずみの適合条件式に式(\ref{b}), 式(\ref{c})を代入する．
 
+<div style="overflow-x: auto">
 $$
-\begin{equation}
+   \begin{equation}
     \frac{1}{E}\left(\frac{\partial^2 \sigma_x}{\partial y^2} - \nu\frac{\partial^2 \sigma_y}{\partial y^2} + \frac{\partial^2 \sigma_y}{\partial x^2} - \nu\frac{\partial^2 \sigma_x}{\partial x^2} \right) = \frac{2(1+\nu)}{E}\frac{\partial^2 \sigma_{xy}}{\partial x \partial y}
-\end{equation}
-\label{d}\tag{4}
+   \end{equation}
+    \label{d}\tag{4}
 $$
+</div>
+
 
 ここで平衡方程式
 
@@ -90,12 +93,14 @@ $$
 
 移項して
 
+<div style="overflow-x: auto">
 $$
 \begin{equation}
     2\frac{\partial^2 \sigma_{xy}}{\partial x \partial y} = -\frac{\partial^2 \sigma_x}{\partial x^2} - \frac{\partial^2 \sigma_{y}}{\partial y^2} - \frac{\partial X}{\partial x} - \frac{\partial Y}{\partial y}
 \end{equation}
 \label{g}\tag{7}
 $$
+</div>
 
 式(\ref{d})の右辺へ式(\ref{g})を代入して
 
@@ -107,12 +112,14 @@ $$
 
 整理する
 
+<div style="overflow-x: auto">
 $$
 \begin{equation}
     \left(\frac{\partial^2}{\partial x^2} + \frac{\partial^2}{\partial y^2} \right)(\sigma_x + \sigma_y) = -(1+\nu)\left(\frac{\partial X}{\partial x} + \frac{\partial Y}{\partial y} \right)
 \end{equation}
 \label{h}\tag{8}
 $$
+</div>
 
 今回は，物体力$$X = Y = 0$$だから式(\ref{h})の右辺は0である．
 $$\nabla^2=\frac{\partial^2}{\partial x^2} + \frac{\partial^2}{\partial y^2}$$とすると
