@@ -38,7 +38,7 @@ $$
 $$
 \begin{align*}
 &\mathscr{L}\left[\int_0^t f(u)du\right] \\
-&= \int_0^{\infty} \int_0^t f(u)dudt \\
+&= \int_0^{\infty} e^{-st}\int_0^t f(u)dudt \\
 &= \left[-\frac{1}{s}e^{-st}\int_0^{t}f(u)du \right]_0^{\infty} + \frac{1}{s}\int_0^{\infty}e^{-st}f(t)dt \tag{1}\label{eq:laplace}
 \end{align*}
 $$
