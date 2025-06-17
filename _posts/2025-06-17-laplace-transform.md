@@ -68,7 +68,7 @@ $$
 
 <div style="overflow-x: auto">
 $$
-|g(t)| = \left|\int_0^t f(u) du \right| \le \int_0^t |f(u)| du \le \int_0^t Me^{\sigma_0} du = \frac{M}{\sigma_0} (e^{\sigma_0 t}-1)
+|g(t)| = \left|\int_0^t f(u) du \right| \le \int_0^t |f(u)| du \le \int_0^t Me^{\sigma_0 t} du = \frac{M}{\sigma_0} (e^{\sigma_0 t}-1)
 $$
 </div>
 
@@ -80,7 +80,7 @@ $$
 $$
 </div>
 
-ここで$$\sigma > \sigma_0$$だから
+
 
 <div style="overflow-x: auto">
 $$
@@ -109,7 +109,7 @@ $$
 $$
 </div>
 
-である．（$$\because \sigma-\sigma_0 > 0$$）
+である．$$\because \sigma-\sigma_0 > 0$$
 
 したがって
 
