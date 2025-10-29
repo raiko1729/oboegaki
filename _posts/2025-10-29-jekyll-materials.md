@@ -396,50 +396,10 @@ $$
 
 
 
-    
-        <section >
-            
-            <h2>reveal.jsです！！</h2>
-
-            </section>
-    
-
-
     </div>
 
 
   </div>
-
-  <div class="line top"></div>
-  <div class="line bottom"></div>
-  <div class="line left"></div>
-  <div class="line right"></div>
-
-  <script src="libs/reveal.js/4.3.1/reveal.js"></script>
-<script src="libs/reveal.js/4.3.1/plugin/notes/notes.js"></script>
-<script src="libs/reveal.js/4.3.1/plugin/markdown/markdown.js"></script>
-<script src="libs/reveal.js/4.3.1/plugin/highlight/highlight.js"></script>
-<script src="libs/reveal.js/4.3.1/plugin/math/math.js"></script>
-<script src="libs/reveal.js/4.3.1/plugin/fullscreen/plugin.js"></script>
-<script src="libs/reveal.js/4.3.1/plugin/animate/plugin.js"></script>
-<script src="libs/reveal.js/4.3.1/plugin/animate/svg.min.js"></script>
-<script src="libs/reveal.js/4.3.1/plugin/anything/plugin.js"></script>
-<script src="libs/reveal.js/4.3.1/plugin/anything/Chart.min.js"></script>
-<script src="libs/reveal.js/4.3.1/plugin/anything/d3/d3.v3.min.js"></script>
-<script src="libs/reveal.js/4.3.1/plugin/anything/d3.patch.js"></script>
-<script src="libs/reveal.js/4.3.1/plugin/anything/d3/queue.v1.min.js"></script>
-<script src="libs/reveal.js/4.3.1/plugin/anything/d3/topojson.v1.min.js"></script>
-<script src="libs/reveal.js/4.3.1/plugin/anything/function-plot.js"></script>
-<script src="libs/reveal.js/4.3.1/plugin/customcontrols/plugin.js"></script>
-<script src="libs/reveal.js/4.3.1/plugin/embed-tweet/plugin.js"></script>
-<script src="libs/reveal.js/4.3.1/plugin/chart/chart.min.js"></script>
-<script src="libs/reveal.js/4.3.1/plugin/chart/plugin.js"></script>
-<script src="libs/reveal.js/4.3.1/plugin/verticator/verticator.js"></script>
-
-<script src="libs/reveal.js/4.3.1/plugin/zoom/zoom.js"></script>
-<script src="libs/reveal.js/4.3.1/plugin/search/search.js"></script>
-<script src="libs/reveal.js/4.3.1/plugin/menu/menu.js"></script>
-<script src="libs/reveal.js/4.3.1/plugin/chalkboard/plugin.js"></script>
 
 <!--	<script src="libs/reveal.js/4.3.1/plugin/audio-slideshow/plugin.js"></script>  -->
 <!--	<script src="libs/reveal.js/4.3.1/plugin/audio-slideshow/recorder.js"></script>-->
